@@ -25,7 +25,7 @@
                 await sleep(5);
             }
             let divTest = document.getElementById("divTest");
-            divTest.innerHTML = '<img id="jsImg" src="https://www.focusjunior.it/content/uploads/2020/10/imageedit_1_6909782815.jpg" />';
+            divTest.innerHTML = '<video id="jsImg" controls> <source src="https://www.youtube.com/watch?v=HbipSWK0tOw" type="video/mp4"> Your browser does not support HTML video.</video>';
             let jsImg = document.getElementById("jsImg");
             for (let count = 500; count > 100; count--){
                 jsImg.style.width = count + "px";
